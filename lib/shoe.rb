@@ -38,6 +38,11 @@ class Shoe
   def condition 
     @condition 
   end 
+  
+  def cobble
+    puts "The shoes has been repaired"
+    @condition = "new"
+  end 
     
     
 end 
